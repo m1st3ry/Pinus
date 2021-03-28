@@ -1,8 +1,15 @@
 #Para reduzir o tamanho do codigo, estaremos trabalhando com valores de estoque fixos, sem necessidade de pedir ao usuario para digita-los no presente momento.
-# As madeiras de pinus, são vendidas unitariamente, contudo devido o fato de que tanto cada peça pode ser vendida por inteiro, cada uma delas também pode ser vendida fracionada, o que torna o trabalho de controle de saldo do pinus mais complicado para se realizar, com isso utilizaremos uma base para o saldo, que é basicamente estoque subtraindo vendas, para se encontrar o saldo final.
-#Acredito que o sarrafo de 5 seja a chave para se conseguir chegar no estoque correto delas, já que cada tamanho é registrado tanto na entrada como na saida, mas apenas o sarrafo de 5 é registrado venda em sistema, mas o mesmo pode ser feito a partir da tabua de 25 para baixo.
+
+# As madeiras de pinus, são vendidas unitariamente, contudo devido o fato de que tanto cada peça pode ser vendida por inteiro, 
+cada uma delas também pode ser vendida fracionada, o que torna o trabalho de controle de saldo do pinus mais complicado para se realizar, 
+com isso utilizaremos uma base para o saldo, que é basicamente estoque subtraindo vendas, para se encontrar o saldo final.
+
+#Acredito que o sarrafo de 5 seja a chave para se conseguir chegar no estoque correto delas, 
+já que cada tamanho é registrado tanto na entrada como na saida, mas apenas o sarrafo de 5 é registrado venda em sistema, 
+mas o mesmo pode ser feito a partir da tabua de 25 para baixo.
 
 #Realizar entrada de vendas manualmente.
+
 #'v' usado na variavel para vendas.
 
 v30 = int(input('Entre com a quantidade vendida de tabua de 30: ' ))
