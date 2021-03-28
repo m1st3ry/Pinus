@@ -1,0 +1,33 @@
+#Para reduzir o tamanho do codigo, estaremos trabalhando com valores de estoque fixos, sem necessidade de pedir ao usuario para digita-los no presente momento.
+
+#Realizar entrada de vendas manualmente.
+#'v' usado na variavel para vendas.
+
+v30 = int(input('Entre com a quantidade vendida de tabua de 30: ' ))
+v25 = int(input('Entre com a quantidade vendida de tabua da tabua de 25: ' ))
+v20 = int(input('Entre com a quantidade vendida de tabua da tabua de 20: ' ))
+v15 = int(input('Entre com a quantidade vendida de sarrafos de 15: ' ))
+v10 = int(input('Entre com a quantidade vendida de sarrafos de 10: ' ))
+v5 = int(input('Entre com a quantidade vendida de sarrafos de 5: ' ))
+
+#'e' usado na variavel para estoque.
+
+e30 = 1000
+e25 = 200
+e20 = 1000
+e15 = 500
+e10 = 1000
+
+#'s' usado na variavel para saldo final.
+
+s30 = (e30 - v30)
+s25 = (e25 - v25)
+s20 = (e20 - v20)
+s15 = (e15 - v15)
+s10 = (e10 - v10)
+
+print('A quantidade em estoque atual de tabuas de pinus de 30 é: ', s30)
+print('A quantidade em estoque atual de tabuas de pinus de 25 é: ',s25)
+print('A quantidade em estoque atual de tabuas de pinus de 20 é: ',s20)
+print('A quantidade em estoque atual de sarrafos de pinus de 15 é: ',s15)
+print('A quantidade em estoque atual de sarrafos de pinus de 10 é: ',s10)
