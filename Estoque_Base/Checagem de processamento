@@ -1,12 +1,14 @@
-#Modulo de busca de produto abaixo de estoque. 
+#Modulo de busca de produto abaixo de estoque.
 
 produto=input("Digite o produto: ")
 estoque=int(input("Digite a saldo: "))
 venda=int(input("Digite a venda: "))
 fisico=int(input("Digite o saldo fisico: "))
 saldo = estoque - venda
-divergencia="NÃO"
-if fisico=saldo:
-   print("O produto " + produto + "Não possui divergencia!")
-else
-   print("O produto " + produto + " possui divergencia no fisico: " + divergencia)
+
+if (fisico==estoque):
+   print("O produto " + produto + " Não possui divergencia!")
+else:
+   print("O produto ", produto)
+   print("Possui divergencia no fisico. ")
+   print("A divergencia é de: ", saldo)
