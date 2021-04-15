@@ -1,0 +1,8 @@
+#Modulo de busca de produto abaixo de estoque. 
+
+produto=input("Digite o produto: ")
+saldo=int(input("Digite a saldo: "))
+estoque_minimo="NÃO"
+if saldo<=300:
+   estoque_minimo="SIM"
+print("O produto " + produto + " possui estoque abaixo do minímo: " + estoque_minimo)
