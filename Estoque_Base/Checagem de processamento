@@ -12,5 +12,5 @@ if (fisico==estoque):
 else:
    print("O produto ", produto)
    print("Possui divergencia no fisico. ")
-   print("A divergencia é de: ", estoque - fisico)
-   print("A quantidade do produto que virou sarrafo de 5 é de: ", sar5)
+   print("A divergencia é de: ", estoque - fisico, "peças de ", produto)
+   print("A quantidade do produto " + produto + ", que virou sarrafo de 5 é de: ", sar5)
