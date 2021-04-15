@@ -4,8 +4,9 @@ produto=input("Digite o produto: ")
 estoque=int(input("Digite a saldo: "))
 venda=int(input("Digite a venda: "))
 fisico=int(input("Digite o saldo fisico: "))
+saldo = estoque - venda
 divergencia="NÃO"
-if fisico=estoque:
+if fisico=saldo:
    print("O produto " + produto + "Não possui divergencia!")
 else
    print("O produto " + produto + " possui divergencia no fisico: " + divergencia)
